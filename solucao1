@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var N1, N2, N3 int
+
+	fmt.Println("---------------------")
+	fmt.Println("A soma de três numero")
+	fmt.Println("---------------------")
+	fmt.Print("Escreva o primeiro numero:")
+	fmt.Scan(&N1)
+	fmt.Print("Escreva o segundo numero:")
+	fmt.Scan(&N2)
+	fmt.Print("Escreva o terceiro numero:")
+	fmt.Scan(&N3)
+	fmt.Print("A soma entre ", N1, ",", N2, " e ", N3, " é igual a ", N1+N2+N3)
+}

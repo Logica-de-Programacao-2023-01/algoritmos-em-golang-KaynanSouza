@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var peso float64
+
+	fmt.Println("------------------------------------")
+	fmt.Println("    CONVERSOR DE KG PARA LIBRAS     ")
+	fmt.Println("------------------------------------")
+
+	fmt.Print("Digite seu peso em kg:")
+	fmt.Scan(&peso)
+
+	fmt.Println("------------------------------------")
+	fmt.Println("O seu peso em kg em libras é ", (peso*2)+(peso*2/(10)))
+	fmt.Println("------------------------------------")
+
+}

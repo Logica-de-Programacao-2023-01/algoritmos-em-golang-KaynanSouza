@@ -1,0 +1,23 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var numero int
+
+	fmt.Println("--------------------------------")
+	fmt.Println("     NUMEROS MARGINALIZADOS     ")
+	fmt.Println("--------------------------------")
+
+	fmt.Print("Escreva um numero:")
+	fmt.Scan(&numero)
+
+	fmt.Println("--------------------------------")
+	numero++
+	fmt.Println("seu numero posterior é ", numero)
+	numero--
+	numero--
+	fmt.Println("Seu numero antecessor é ", numero)
+	fmt.Println("--------------------------------")
+}

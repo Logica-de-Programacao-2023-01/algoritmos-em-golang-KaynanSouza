@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var salario float64
+
+	fmt.Println("----------------------------------------")
+	fmt.Println("         SALARIO DO FUNCIONARIO         ")
+	fmt.Println("----------------------------------------")
+
+	fmt.Print("Escreva o seu salario:")
+	fmt.Scan(&salario)
+
+	fmt.Println("----------------------------------------")
+	fmt.Println("O salario do funcionario com acrecimo de 10% fica:", salario+(salario*0.1))
+	fmt.Print("----------------------------------------")
+
+}

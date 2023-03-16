@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var An, At float64
+
+	fmt.Println("-----------------------")
+	fmt.Println("     IDADE EM DIAS     ")
+	fmt.Println("-----------------------")
+
+	fmt.Print("Escreva o ano de nascimento:")
+	fmt.Scan(&An)
+	fmt.Print("Escreva o ano que estamos:")
+	fmt.Scan(&At)
+
+	fmt.Println("-----------------------")
+	fmt.Println("Você tem um total de ", (At-An)*365, " dias de vida")
+	fmt.Println("-----------------------")
+
+}

@@ -1,0 +1,23 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var N1, N2, N3 float64
+
+	fmt.Println("----------------------------------")
+	fmt.Println("     CALCULAR MEDIA PONDERADA     ")
+	fmt.Println("----------------------------------")
+
+	fmt.Print("Escreva o primeiro numero:")
+	fmt.Scan(&N1)
+	fmt.Print("Escreva o segundo numero:")
+	fmt.Scan(&N2)
+	fmt.Print("Escreva o terceiro numero:")
+	fmt.Scan(&N3)
+
+	fmt.Println("----------------------------------")
+	fmt.Println("A media é ", (N1*2+N2*3+N3*5)/10)
+	fmt.Println("----------------------------------")
+}

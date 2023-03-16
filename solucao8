@@ -1,0 +1,21 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var dias, diaria int
+
+	fmt.Println("----------------------------------")
+	fmt.Println("     DIARIO DE UM funcionario     ")
+	fmt.Println("----------------------------------")
+
+	fmt.Print("Qantos dias o funcionario trabalhou:")
+	fmt.Scan(&dias)
+	fmt.Print("Quanto custa cada diaria do funcionario:")
+	fmt.Scan(&diaria)
+
+	fmt.Println("----------------------------------")
+	fmt.Println("O funcionario ganhou ", dias*diaria, ",00 R$")
+	fmt.Println("----------------------------------")
+}

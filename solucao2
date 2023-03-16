@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var N1 int
+
+	fmt.Println("--------------------------------")
+	fmt.Println(" O DOBRO, O TRIPLO, O QUADRUPLO ")
+	fmt.Println("--------------------------------")
+
+	fmt.Print("Escreva o numero que deseja:")
+	fmt.Scan(&N1)
+
+	fmt.Println("--------------------------------")
+	fmt.Println("O dobro de ", N1, " é:", N1*2)
+	fmt.Println("O triplo de ", N1, " é:", N1*3)
+	fmt.Println("O quadruplo de ", N1, " é:", N1*4)
+	fmt.Print("----------------------------------")
+
+}

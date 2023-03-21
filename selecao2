@@ -1,0 +1,28 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var N1, N2, N3 int
+
+	fmt.Print("escreva o primeiro numero:")
+	fmt.Scan(&N1)
+	fmt.Print("escreva o segundo numero:")
+	fmt.Scan(&N2)
+	fmt.Print("escreva o teceiro numero:")
+	fmt.Scan(&N3)
+
+	if N1 < N2 {
+		fmt.Print(N1, " é menor q ", N2)
+	} else if N1 < N3 {
+		fmt.Print(N1, " menor q", N3)
+	} else if N2 < N1 {
+		fmt.Print(N2, " é menot q ", N1)
+	} else if N2 < N3 {
+		fmt.Print(N2, " é menor q", N3)
+	} else {
+
+	}
+
+}

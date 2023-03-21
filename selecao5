@@ -1,0 +1,36 @@
+package main
+
+import "fmt"
+
+func main() {
+	var altura, peso, imc float64
+
+	fmt.Println("------------------------")
+	fmt.Println("      CALCULAR IMC      ")
+	fmt.Println("------------------------")
+	fmt.Print("Digite a sua altura:")
+	fmt.Scan(&altura)
+	fmt.Print("Digite o seu peso:")
+	fmt.Scan(&peso)
+	fmt.Println("------------------------")
+	imc = peso / (altura * altura)
+	fmt.Println("Seu imc é:", imc)
+	if imc < 16.9 {
+		fmt.Println(" Você está muito abaixo do peso")
+	} else if imc < 18.4 {
+		fmt.Println("Você está abaixo do peso")
+	} else if imc < 24.9 {
+		fmt.Println("Você está com seu peso ideal ")
+	} else if imc < 29.9 {
+		fmt.Println("Você está acima do peso")
+	} else if imc < 34.9 {
+		fmt.Println("Você está com obesidade grau I")
+	} else if imc < 40 {
+		fmt.Println("Você está com obesidade grau II")
+	} else if imc > 40 {
+		fmt.Println("Você está com obesidade grau III")
+	}
+
+	fmt.Println("------------------------")
+
+}

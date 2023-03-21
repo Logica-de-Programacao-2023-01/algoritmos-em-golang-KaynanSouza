@@ -1,0 +1,22 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	var N1, N2 int
+
+	fmt.Print("escreva um numero:")
+	fmt.Scan(&N1)
+	fmt.Print("escreva o segundo numero:")
+	fmt.Scan(&N2)
+
+	if N1 > N2 {
+		fmt.Print(N1, " é o maior numero ")
+	} else {
+		fmt.Print(N2, " é o maior numeo")
+	}
+
+}

@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var N1, mod int
+
+	fmt.Print("digite um numero:")
+	fmt.Scan(&N1)
+	mod = N1 % 2
+
+	if mod == 0 {
+		fmt.Print("ele é par")
+	} else if mod == 1 {
+		fmt.Print("ele é impar")
+	}
+
+}

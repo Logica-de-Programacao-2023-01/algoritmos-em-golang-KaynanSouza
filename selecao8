@@ -1,0 +1,28 @@
+package main
+
+import "fmt"
+
+func main() {
+	var dia int
+
+	fmt.Print("Digite um numero entre 1 e 7:")
+	fmt.Scan(&dia)
+
+	if dia == 1 {
+		fmt.Print("1 corresponde a segunda")
+
+	} else if dia == 2 {
+		fmt.Print("2 corresponde a terça")
+	} else if dia == 3 {
+		fmt.Print("3 corresponde a quarta")
+	} else if dia == 4 {
+		fmt.Print("4 corresponde a quinta")
+	} else if dia == 5 {
+		fmt.Print("5 corresponde a sexta")
+	} else if dia == 6 {
+		fmt.Print("6 corresponde a sabado")
+	} else if dia == 7 {
+		fmt.Print("7 corresponde a domingo")
+	}
+
+}
